@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nota - The reminder App</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta
+      name="format-detection"
+      content="telephone=no, address=no, email=no"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"
+    />
+
+    <link rel="icon" href="assets/icons/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/m-styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>Reminder App</h1>
+    </header>
+    <div class="actions">
+      <input
+        type="text"
+        id="search-text"
+        class="input"
+        placeholder="Filter reminders"
+      />
+      
+      <br /><br />
+      <center>
+        <button id="create-reminder" class="button">Create Reminder</button>
+      </center>
+      <br /><br />
+      <div class="container">
+        <div id="reminders"></div>
+      </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment-with-locales.min.js"></script>
+    <script src="js/reminder-functions.js"></script>
+    <script src="js/reminder-app.js"></script>
+  </body>
+</html>
